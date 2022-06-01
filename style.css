@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    display: flex;
+    /* justify-content: space-around; */
+    /* background-color: aqua; */
+    /* width: 100px; */
+    flex: 1;
+}
+.centre{
+    display: flex;
+    flex: 2;
+}
+header{
+    cursor: pointer;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    /* flex: 3; */
+    
+}
+.left .logo{
+    color: red;
+    margin-left: 2rem;
+}
+button{
+    width: 25px;
+    height: 25px;
+}
+.profile img{
+    width: 30px;
+    border-radius: 50px;
+    
+}
